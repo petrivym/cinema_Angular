@@ -1,0 +1,19 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  text-align: center;
+}
+.pre-info{
+  display: flex;
+  justify-content: space-around;
+}
+.about{
+  margin: 0 auto;
+  width: 800px;
+}

@@ -1,0 +1,26 @@
+<div class="container">
+  <div>
+    <img [src]="ulr" alt="">
+  </div>
+  <div class="info">
+    <div class="title">
+      {{details.original_title}}
+    </div>
+    <div class="pre-info">
+      <div>
+        <div>{{details.release_date}}</div>
+        <div>
+          {{details.status}}
+        </div>
+      </div>
+
+      {{details.vote_average}}
+    </div>
+    <div>
+      {{details.tagline}}
+    </div>
+    <div class="about">
+      {{details.overview}}
+    </div>
+  </div>
+</div>

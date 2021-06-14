@@ -1,0 +1,22 @@
+.container {
+  background: rgb(62, 62, 112);
+  background: linear-gradient(108deg, rgba(62, 62, 112, 1) 0%, rgba(27, 27, 48, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(1, 2, 1, 1) 0%, rgba(32, 32, 89, 1) 0%, rgba(22, 22, 79, 1) 67%);
+}
+.loader-container{
+  z-index: 99;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity:0.8;
+}
+.loader{
+  top: 40%;
+  left: 40%;
+}
+.content_container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+

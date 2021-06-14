@@ -1,0 +1,19 @@
+.loader-container{
+  z-index: 99;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity:0.8;
+}
+.loader{
+  top: 40%;
+  left: 40%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
